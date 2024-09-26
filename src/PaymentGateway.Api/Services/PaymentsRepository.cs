@@ -6,12 +6,12 @@ public class PaymentsRepository
 {
     public List<PostPaymentResponse> Payments = new();
     
-    public void Add(PostPaymentResponse payment)
+    public virtual void Add(PostPaymentResponse payment)
     {
         Payments.Add(payment);
     }
 
-    public PostPaymentResponse Get(Guid id)
+    public virtual async Task<PostPaymentResponse> Get(Guid id)
     {
         return Payments.FirstOrDefault(p => p.Id == id);
     }
