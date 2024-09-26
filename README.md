@@ -19,3 +19,8 @@ External Clients --> API Layer --> PaymentController --> PaymentService --> Repo
 * Async Operations (like PLINQ)
 * Data Encryption
   
+**Results**
+![image](https://github.com/user-attachments/assets/88d3a9b7-c2d9-4141-8365-78783817dc75)
+
+![image](https://github.com/user-attachments/assets/60f02ca6-9982-488e-b7cd-4bdb2dcb8d7c)
+
