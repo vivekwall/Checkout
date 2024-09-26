@@ -6,6 +6,7 @@ External Clients --> API Layer --> PaymentController --> PaymentService --> Repo
 ![image](https://github.com/user-attachments/assets/0c22336e-735a-48cc-b132-a5c6019926e5)
 
 **Folder Structure**
+
 ![image](https://github.com/user-attachments/assets/64847f03-88d2-4bcb-90e9-1506585220b6)
 
 **Proposed Improvements**
