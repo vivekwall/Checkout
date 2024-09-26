@@ -1,18 +1,20 @@
-# Instructions for candidates
+**Design**
 
-This is the .NET version of the Payment Gateway challenge. If you haven't already read this [README.md](https://github.com/cko-recruitment/) on the details of this exercise, please do so now. 
+Using the same existing architetural design. But modified the controller to access a service layer to get the results, instead of accessing the repository direclty.
 
-## Template structure
-```
-src/
-    PaymentGateway.Api - a skeleton ASP.NET Core Web API
-test/
-    PaymentGateway.Api.Tests - an empty xUnit test project
-imposters/ - contains the bank simulator configuration. Don't change this
+External Clients --> API Layer --> PaymentController --> PaymentService --> Repository --> External Bank Simulator.
+![image](https://github.com/user-attachments/assets/0c22336e-735a-48cc-b132-a5c6019926e5)
 
-.editorconfig - don't change this. It ensures a consistent set of rules for submissions when reformatting code
-docker-compose.yml - configures the bank simulator
-PaymentGateway.sln
-```
+**Folder Structure**
+![image](https://github.com/user-attachments/assets/64847f03-88d2-4bcb-90e9-1506585220b6)
 
-Feel free to change the structure of the solution, use a different test library etc.
+**Proposed Improvements**
+
+* Move the sevice to different layer. 
+* Adding Security
+* CQRS 
+* Dockerising
+* Caching
+* Async Operations (like PLINQ)
+* Data Encryption
+  
