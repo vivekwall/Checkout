@@ -11,8 +11,10 @@ External Clients --> API Layer --> PaymentController --> PaymentService --> Repo
 
 **Proposed Improvements**
 
-* Move the sevice to different layer. 
+* Move the sevice to different layer.
 * Adding Security
+* Azure Service Bus or EventGrid
+* Microservice and Event based architecture
 * CQRS 
 * Dockerising
 * Caching
